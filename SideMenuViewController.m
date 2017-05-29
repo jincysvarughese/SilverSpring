@@ -10,15 +10,14 @@
 
 @interface SideMenuViewController () <UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) NSArray *labelDataSource;
 @property (nonatomic, strong) NSArray *imagesDataSource;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSArray *labelDataSource;
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end
 @implementation SideMenuViewController
 
--(void)viewDidLoad
-{
+-(void)viewDidLoad {
     [super viewDidLoad];
 }
 
